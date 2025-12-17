@@ -62,7 +62,7 @@ function Header() {
                     <li className=" px-3 flex items-center gap-2">
                         <Link to="/grocery">Grocery</Link></li>
                     <li className=" px-3 flex items-center gap-2">
-                        <Link to="/cart"> <CartIcon className="w-4 h-4" /> Cart(items:{cart.items.length})</Link></li>
+                        <Link to="/cart"> <CartIcon className="w-4 h-4" /> Cart({cart.items.length})</Link></li>
                 </ul>
             </nav>
             <div className="flex items-center gap-3">
