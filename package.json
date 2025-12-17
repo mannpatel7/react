@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "this is react",
  "scripts": {
-    "start": "parcel episode4/index4.html",
-    "build": "parcel build episode4/index4.html --dist-dir dist"
+    "start": "parcel episode4/index.html",
+    "build": "parcel build episode4/index.html --dist-dir dist"
   },
   "keywords": [
     "react"
