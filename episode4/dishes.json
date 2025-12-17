@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "The Spice House",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "isPreferred": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVasma24V-1gmNtVNBFwCWBrdE7deK9d-eGw&s",
+    "costForTwo": 500,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 2,
+    "name": "Sushi World",
+    "cuisine": "Japanese",
+    "rating": 4.7,
+    "isPreferred": false,
+    "image": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/16/ff24320a-713a-4cb3-a62c-d5f73e243017_image2cdf83b2725124d7a91f15a737b1db015.JPG",
+    "costForTwo": 1200,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 3,
+    "name": "Pasta Paradise",
+    "cuisine": "Italian",
+    "rating": 4.3,
+    "isPreferred": true,
+    "image": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?semt=ais_hybrid&w=740&q=80",
+    "costForTwo": 800,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 4,
+    "name": "Burger Hub",
+    "cuisine": "American",
+    "rating": 4.0,
+    "isPreferred": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbjbjnKRdEUP_zBGPLWhvLyugJT8Pw7JKEg&s",
+    "costForTwo": 400,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 5,
+    "name": "Taco Town",
+    "cuisine": "Mexican",
+    "rating": 4.2,
+    "isPreferred": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvUm9oXaiaem5OQSWpi4ImRE2Ok9dTQJo3g&s",
+    "costForTwo": 450,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 6,
+    "name": "Curry Corner",
+    "cuisine": "Indian",
+    "rating": 4.1,
+    "isPreferred": false,
+    "image": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?semt=ais_hybrid&w=740&q=80",
+    "costForTwo": 550,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 7,
+    "name": "Dragon Wok",
+    "cuisine": "Chinese",
+    "rating": 4.6,
+    "isPreferred": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvUm9oXaiaem5OQSWpi4ImRE2Ok9dTQJo3g&s",
+    "costForTwo": 700,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 8,
+    "name": "Pizza Planet",
+    "cuisine": "Italian",
+    "rating": 4.4,
+    "isPreferred": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbjbjnKRdEUP_zBGPLWhvLyugJT8Pw7JKEg&s",
+    "costForTwo": 600,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29762.942855866768!2d72.7516802!3d21.177541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d612eb34293%3A0x281c65ba7594112!2sSurat%20Marriott%20Hotel!5e0!3m2!1sen!2sin!4v1765967995122!5m2!1sen!2sin"
+  },
+  {
+    "id": 9,
+    "name": "Green Garden",
+    "cuisine": "Vegetarian",
+    "rating": 4.5,
+    "isPreferred": true,
+    "image": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?semt=ais_hybrid&w=740&q=80",
+    "costForTwo": 500,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.923456!2d72.7516802!3d21.177541"
+  },
+  {
+    "id": 10,
+    "name": "BBQ Barn",
+    "cuisine": "American",
+    "rating": 4.3,
+    "isPreferred": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVasma24V-1gmNtVNBFwCWBrdE7deK9d-eGw&s",
+    "costForTwo": 900,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 11,
+    "name": "Seafood Shack",
+    "cuisine": "Seafood",
+    "rating": 4.6,
+    "isPreferred": true,
+    "image": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/16/ff24320a-713a-4cb3-a62c-d5f73e243017_image2cdf83b2725124d7a91f15a737b1db015.JPG",
+    "costForTwo": 1500,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 12,
+    "name": "Noodle Nook",
+    "cuisine": "Asian",
+    "rating": 4.2,
+    "isPreferred": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbjbjnKRdEUP_zBGPLWhvLyugJT8Pw7JKEg&s",
+    "costForTwo": 650,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 13,
+    "name": "Baklava Bistro",
+    "cuisine": "Mediterranean",
+    "rating": 4.5,
+    "isPreferred": true,
+    "image": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?semt=ais_hybrid&w=740&q=80",
+    "costForTwo": 750,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 14,
+    "name": "Kebab Kingdom",
+    "cuisine": "Middle Eastern",
+    "rating": 4.4,
+    "isPreferred": false,
+    "image": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/16/ff24320a-713a-4cb3-a62c-d5f73e243017_image2cdf83b2725124d7a91f15a737b1db015.JPG",
+    "costForTwo": 800,
+    "isPromoted": false,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  },
+  {
+    "id": 15,
+    "name": "Veggie Delight",
+    "cuisine": "Vegetarian",
+    "rating": 4.3,
+    "isPreferred": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVasma24V-1gmNtVNBFwCWBrdE7deK9d-eGw&s",
+    "costForTwo": 550,
+    "isPromoted": true,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29762.927250733443!2d72.75159432536647!3d21.17761854029809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d000ef3af3b%3A0x6cf66dcb2dda84f8!2sSANSAI!5e0!3m2!1sen!2sin!4v1765968221743!5m2!1sen!2sin"
+  }
+]
