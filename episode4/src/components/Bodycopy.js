@@ -43,7 +43,7 @@ const Body = () => {
                     placeholder="search for restaurants" 
                     value={searchText}
                     onChange={(e) => setSearchText(e.target.value)}
-                   className="w-[500px] py-3 px-8 text-xl rounded-lg"
+                   className="w-[500px] py-3 px-8 text-xl rounded-lg text-black"
                 />
 
                 <button onClick={() => {
