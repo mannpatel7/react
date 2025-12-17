@@ -47,11 +47,6 @@ food-ordering-app/
 
 ⚙️ Installation & Setup
 
-Clone the repository
-
-git clone https://github.com/your-username/food-ordering-app.git
-
-
 Install dependencies
 
 npm install
