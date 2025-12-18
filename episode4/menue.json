@@ -6,7 +6,7 @@
     "category": "Main Course",
     "price": 12.99,
     "isVeg": false,
-    "image": "https://images.unsplash.com/photo-1596797038531-b755b764d045?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MHxwaG90by1wYWdlfHx8fHx8fHx8MTY3ODgwMDk4fA&ixlib=rb-4.0.3&q=80&w=800"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWI8xoLcHJHiFikxYN9sUC8GgO2WU22bYPmw&s"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "Starter",
     "price": 8.99,
     "isVeg": true,
-    "image": "https://images.unsplash.com/photo-1634629437146-563363403310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MHxwaG90by1wYWdlfHx8fHx8fHx8MTY3ODgwMTE1fA&ixlib=rb-4.0.3&q=80&w=800"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmhkGzVLDnxV9qd_rWkDzm6AEeJ1P4YJwqNw&s"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "category": "Dessert",
     "price": 4.99,
     "isVeg": true,
-    "image": "https://images.unsplash.com/photo-1643448375811-0e3f4b46e885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MHxwaG90by1wYWdlfHx8fHx8fHx8MTY3ODgwMTI5fA&ixlib=rb-4.0.3&q=80&w=800"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrkSTYkhjRV2wggrSj3W1q_RdzdJIA8aT2w&s"
   },
   {
     "id": 4,

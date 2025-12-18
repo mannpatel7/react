@@ -7,82 +7,68 @@ import { HomeIcon, CartIcon, SunIcon, MoonIcon } from "./Icons";
 
 
 function Header() {
-     const [btnname,setbtnname]=useState("login");
-     const onlinestatus=useOnlineStatus();
-     const [theme,setTheme]=useState(() => {
-         try {
-             const stored = localStorage.getItem('theme');
-             if (stored) return stored;
-         } catch (e) {}
-         return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-     });
+    const onlinestatus = useOnlineStatus();
+    const [theme, setTheme] = useState(() => {
+        try {
+            const stored = localStorage.getItem('theme');
+            if (stored) return stored;
+        } catch (e) {}
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    });
 
-     useEffect(() => {
-         const root = document.documentElement;
-         if (theme === 'dark') {
-             root.classList.add('dark');
-         } else {
-             root.classList.remove('dark');
-         }
-         try { localStorage.setItem('theme', theme); } catch(e){}
-     }, [theme]);
+    useEffect(() => {
+        const root = document.documentElement;
+        theme === 'dark' ? root.classList.add('dark') : root.classList.remove('dark');
+        try { localStorage.setItem('theme', theme); } catch(e){}
+    }, [theme]);
 
-    const cart=useSelector((store)=>store.cart);
+    const cart = useSelector((store) => store.cart);
     const [menuOpen, setMenuOpen] = useState(false);
-    return (
-        <header className="flex items-center justify-between p-4 bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 shadow-lg shadow-slate-200 dark:shadow-slate-800 mb-2">
-            
 
+    return (
+        <header className="sticky top-0 z-50 flex flex-wrap items-center justify-between p-4 bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 shadow-md">
+            
+            {/* Logo Section */}
             <div className="flex items-center gap-2">
-                <img src="https://penji.co/wp-content/uploads/2022/08/10.-mr.-d-food-logo.jpg.webp" alt="logo" className="w-[120px] " />
-                <h1 className="brand-title">Mr. food</h1>
+                <img src="https://penji.co/wp-content/uploads/2022/08/10.-mr.-d-food-logo.jpg.webp" alt="logo" className="w-16 md:w-24 rounded-lg" />
+                <h1 className="text-lg md:text-xl font-bold">Mr. Food</h1>
             </div>
 
-            <nav className=" bg-gray-400 rounded-md">
-                <button
-                    className="md:hidden p-2 mr-2 rounded bg-gray-200 dark:bg-slate-700"
-                    onClick={() => setMenuOpen((s) => !s)}
-                    aria-expanded={menuOpen}
-                    aria-label="Toggle menu"
-                >
-                    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
-                </button>
-
-                <ul className={`p-4 items-center gap-2 ${menuOpen ? 'flex flex-col md:flex md:flex-row' : 'hidden md:flex'}`}>
-                    <li className=" px-3 flex items-center gap-2 text-sm">
-                        <span>{onlinestatus ? "✅" : "❌"}</span>
-                        <span className="hidden sm:inline">Online</span>
-                    </li>
-                    <li className=" px-3 flex items-center gap-2">
-                         <HomeIcon className="w-4 h-4" /> <Link to="/">Home</Link></li>
-                    <li className=" px-3 flex items-center gap-2">
-                        <Link to="/about">About</Link></li>
-                    <li className=" px-3 flex items-center gap-2">
-                        <Link to="/contact">Contact</Link></li>
-                    <li className=" px-3 flex items-center gap-2">
-                        <Link to="/grocery">Grocery</Link></li>
-                    <li className=" px-3 flex items-center gap-2">
-                        <Link to="/cart"> <CartIcon className="w-4 h-4" /> Cart({cart.items.length})</Link></li>
-                </ul>
-            </nav>
-            <div className="flex items-center gap-3">
+            {/* Mobile Actions (Theme + Menu Toggle) */}
+            <div className="flex items-center gap-2 md:order-3">
                 <button
                     onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
-                    className="px-3 py-1 rounded-md bg-gray-200 dark:bg-gray-700 text-sm flex items-center gap-2"
+                    className="p-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:ring-2 ring-blue-400 transition-all"
                 >
-                    {theme === 'dark' ? <SunIcon className="w-4 h-4" /> : <MoonIcon className="w-4 h-4" />} 
-                    <span className="sr-only">Toggle theme</span>
+                    {theme === 'dark' ? <SunIcon className="w-5 h-5" /> : <MoonIcon className="w-5 h-5" />}
+                </button>
+
+                <button
+                    className="md:hidden p-2 rounded bg-gray-200 dark:bg-slate-700"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
                 </button>
             </div>
-                <div className="flex  p-4 px-4 pl-4 bg-blue-500 rounded-lg">
-                <button className="login-btn" onClick={() => {
-                    if (btnname === "logout") {
-                        setbtnname("login");
-                    } else {
-                        setbtnname("logout");
-                    }
-                }}>{btnname}</button>
-            </div>
+
+            {/* Navigation Links */}
+            <nav className={`${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:items-center mt-4 md:mt-0`}>
+                <ul className="flex flex-col md:flex-row gap-4 md:gap-6 font-medium bg-gray-200 dark:bg-slate-800 md:bg-transparent p-4 md:p-0 rounded-lg">
+                    <li className="flex items-center gap-2 text-sm italic">
+                        <span>{onlinestatus ? "✅" : "❌"}</span>
+                        <span className="md:hidden lg:inline">Online Status</span>
+                    </li>
+                    <li className="hover:text-blue-500 transition-colors"><Link className="flex items-center gap-2" to="/"><HomeIcon className="w-4 h-4" /> Home</Link></li>
+                    <li className="hover:text-blue-500 transition-colors"><Link to="/about">About</Link></li>
+                    <li className="hover:text-blue-500 transition-colors"><Link to="/contact">Contact</Link></li>
+                    <li className="hover:text-blue-500 transition-colors"><Link to="/grocery">Grocery</Link></li>
+                    <li className="bg-blue-600 text-white px-4 py-1 rounded-full hover:bg-blue-700">
+                        <Link to="/cart" className="flex items-center gap-2">
+                            <CartIcon className="w-4 h-4" /> Cart ({cart.items.length})
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
         </header>
     );
 }

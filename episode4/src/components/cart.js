@@ -12,7 +12,7 @@ const handleclear=()=>{
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-slate-800 py-10">
     <div className="text-center p-2 m-3">
-      <h1 className="font-bold text-2xl">Cart</h1>
+      <h1 className="font-bold text-2xl dark:text-white">Cart</h1>
 
       <CategoryAccordion
         category="Cart Items"

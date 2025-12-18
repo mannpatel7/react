@@ -54,7 +54,7 @@ const CategoryAccordion = ({ category, items = [] }) => {
               </div>
 
               <div className="flex justify-between items-center mt-2">
-                <span className="font-bold">${item.price}</span>
+                <span className="font-bold">₹{item.price*100}</span>
                 <button
                   className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded"
                   onClick={() => handleAddItems(item)}
